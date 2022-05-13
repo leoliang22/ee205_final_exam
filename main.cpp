@@ -6,3 +6,4 @@ int main() {
     std::cout << "Test commit" << std::endl;
     return 0;
 }
+
