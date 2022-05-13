@@ -24,7 +24,11 @@ public:
 
     double getLength() const;
 
-    double compute_area();
+    double compute_area() override{
+        double lhs= getWidth();
+        double rhs= getLength();
+        return lhs*rhs;
+    };
 };
 
 class Square: public Rectangle{

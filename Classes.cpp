@@ -27,12 +27,6 @@ double Rectangle::getLength() const {
     return length;
 }
 
-double Rectangle::compute_area() {
-    double lhs= getWidth();
-    double rhs= getLength();
-    return lhs*rhs;
-}
-
 
 double Square::getSide() const{
     return Rectangle::getWidth();
