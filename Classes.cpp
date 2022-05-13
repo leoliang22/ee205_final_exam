@@ -10,10 +10,10 @@ double Shape::compute_area() {
 
 Rectangle::Rectangle(double newLength, double newWidth) : length(length), width(width) {
     if (newLength <= 0){
-        throw std::invalid_argument("length cannot be less than 0");
+        throw std::invalid_argument("Length must be greater than 0");
     }
     if (newWidth <= 0){
-        throw std::invalid_argument("Width cannot be less than 0");
+        throw std::invalid_argument("Width must be greater tha 0");
     }
     length = newLength;
     width = newWidth;
