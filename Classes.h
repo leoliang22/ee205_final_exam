@@ -19,4 +19,17 @@ protected:
 
 public:
     Rectangle(double newLength, double newWidth);
+
+    double getWidth() const;
+
+    double getLength() const;
+
+    double compute_area();
+};
+
+class Sqaure: public Rectangle{
+public:
+    Sqaure(double newSide);
+
+
 };

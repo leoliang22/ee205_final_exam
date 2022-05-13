@@ -18,3 +18,22 @@ Rectangle::Rectangle(double newLength, double newWidth) : length(length), width(
     length = newLength;
     width = newWidth;
 }
+
+double Rectangle::getWidth() const {
+    return width;
+}
+
+double Rectangle::getLength() const {
+    return length;
+}
+
+double Rectangle::compute_area() {
+    double lhs= getWidth();
+    double rhs= getLength();
+    return lhs*rhs;
+}
+
+Sqaure::Sqaure(double newSide) : Rectangle(newSide, newSide) {
+}
+
+
