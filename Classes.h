@@ -21,7 +21,6 @@ public:
     Rectangle(double newLength, double newWidth);
 
     double getWidth() const;
-
     double getLength() const;
 
     double compute_area() override{

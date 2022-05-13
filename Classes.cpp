@@ -27,9 +27,6 @@ double Rectangle::getLength() const {
     return length;
 }
 
-
 double Square::getSide() const{
     return Rectangle::getWidth();
 }
-
-
