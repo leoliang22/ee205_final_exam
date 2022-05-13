@@ -33,7 +33,9 @@ double Rectangle::compute_area() {
     return lhs*rhs;
 }
 
-Sqaure::Sqaure(double newSide) : Rectangle(newSide, newSide) {
+
+double Square::getSide() const{
+    return Rectangle::getWidth();
 }
 
 

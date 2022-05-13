@@ -27,9 +27,10 @@ public:
     double compute_area();
 };
 
-class Sqaure: public Rectangle{
+class Square: public Rectangle{
 public:
-    Sqaure(double newSide);
+    Square(double newSide):Rectangle(newSide, newSide){
+    };
 
-
+    double getSide() const;
 };
